@@ -90,7 +90,10 @@ class ResPartner(models.Model):
             city, state = cache[key]
             if city:
                 values = (
-                    ("city_id", city.id), ("city", city.name), ("state_id", city.state_id.id), ("zip", city.zipcode)
+                    ("city_id", city.id),
+                    ("city", city.name),
+                    ("state_id", city.state_id.id),
+                    ("zip", city.zipcode),
                 )
             elif state and partner.state_id != state:
                 values = (("state_id", state.id),)
@@ -125,7 +128,10 @@ class ResPartner(models.Model):
         except Exception:  # noqa: BLE001
             if len(self) == 1:
                 _logger.warning(
-                    "l10n_it_zip: contact %s (id %s) not relinked to city %s", self.display_name, self.id, values,
+                    "l10n_it_zip: contact %s (id %s) not relinked to city %s",
+                    self.display_name,
+                    self.id,
+                    values,
                     exc_info=True,
                 )
                 return self.browse()

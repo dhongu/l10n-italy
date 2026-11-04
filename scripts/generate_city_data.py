@@ -35,7 +35,7 @@ def main(source):
             index = counter.get(zip_code, 0)
             counter[zip_code] = index + 1
             writer.writerow([f"it_city_{zip_code}_{index}", "base.it", zip_code, name, f"base.state_it_{province}"])
-    print(f"{len(rows)} cities written to {OUTPUT}")
+    print(f"{len(rows)} cities written to {OUTPUT}")  # pylint: disable=print-used
 
 
 if __name__ == "__main__":
