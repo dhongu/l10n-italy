@@ -1,3 +1,9 @@
+## 19.0.1.0.1 (2026-11-04)
+
+**Added**
+
+- Italian translation (`i18n/it.po`) of the actions.
+
 ## 19.0.1.0.0 (2026-11-04)
 
 **Added**
