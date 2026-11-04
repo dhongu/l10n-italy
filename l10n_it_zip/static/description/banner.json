@@ -1,0 +1,6 @@
+{
+  "title": "Italy - City from ZIP",
+  "summary": "City and province from the Italian postal code",
+  "edition": "community",
+  "features": ["Italian localities from GeoNames", "City and province from the CAP", "Bulk link of existing contacts"]
+}

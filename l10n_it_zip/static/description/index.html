@@ -1,0 +1,113 @@
+<div class="mx-auto px-3 py-3 rounded-4" style="max-width:1100px;font-family:'Segoe UI','Avenir Next','Helvetica Neue',Arial,sans-serif;color:#212529;font-weight:400;background-color:#ffffff;--bs-body-color:#212529;--bs-body-bg:#ffffff;--bs-emphasis-color:#212529;--bs-border-color:#dee2e6;--bs-card-bg:#ffffff;--bs-card-color:#212529;--bs-card-border-color:#dee2e6;--bs-link-color:#006F42;--bs-link-hover-color:#00432a;--bs-nav-link-color:#212529;--bs-nav-pills-link-active-bg:#006F42;--bs-nav-pills-link-active-color:#ffffff;--bs-code-color:#b4266b;--bs-heading-color:#212529;">
+<!-- tb-gen v1 -->
+<div class="rounded-4 shadow px-4 py-4 mt-2 mb-4" style="background-color:#006F42;color:#ffffff;">
+  <div class="d-flex flex-wrap align-items-center">
+    <span class="d-inline-block rounded-4 p-2 flex-shrink-0 my-2" style="background-color:#ffffff;margin-right:24px;"><img src="icon.png" alt="Italy - City from ZIP" style="width:80px;height:80px;border:none;"/></span>
+    <div class="flex-grow-1 my-2" style="width:320px;min-width:0;margin-right:24px;">
+      <h1 class="fw-bold mb-2" style="color:#ffffff;font-size:36px;line-height:1.1;letter-spacing:-0.5px;border:none;">Italy - City from ZIP</h1>
+      <p class="mb-3" style="font-size:18px;color:#cdeccf;line-height:1.45;">City and province from the Italian postal code</p>
+      <div>
+        <span class="d-inline-block rounded-pill fw-bold me-2 mb-2" style="background-color:#ffffff;border:1px solid #ffffff;color:#006F42;padding:6px 14px;font-size:12px;">Odoo 19.0</span>
+        <span class="d-inline-block rounded-pill fw-semibold me-2 mb-2" style="border:1px solid #8fd1ad;color:#ffffff;padding:6px 14px;font-size:12px;">Localization</span>
+        <span class="d-inline-block rounded-pill fw-semibold me-2 mb-2" style="border:1px solid #8fd1ad;color:#ffffff;padding:6px 14px;font-size:12px;">Odoo.sh &bull; On-premise</span>
+        <span class="d-inline-block rounded-pill fw-semibold me-2 mb-2" style="border:1px dashed #8fd1ad;color:#ffffff;padding:6px 14px;font-size:12px;">LGPL-3</span>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="d-flex align-items-start rounded-4 px-4 py-3 mb-4" style="background-color:#DEF1DD;color:#212529;">
+  <span class="flex-shrink-0 me-3" style="font-size:26px;line-height:1.2;color:#006F42;">&#9733;</span>
+  <div style="font-size:16px;line-height:1.55;">
+    <span class="fw-bold" style="color:#006F42;">Did this module help you?</span> It is free, built and maintained by the Terrabit developers. If it saved you time, a rating on this page is the best way to say thanks &mdash; and it helps other Odoo users find it too. Thank you for your support!
+  </div>
+</div>
+
+<ul class="nav nav-pills justify-content-center mb-4 pb-3 border-bottom" style="--bs-nav-pills-link-active-bg:#006F42;">
+  <li class="nav-item mx-1 mb-2">
+    <a class="nav-link active fw-semibold rounded-pill border" id="tb-tab-overview"
+       data-bs-toggle="pill" data-bs-target="#tb-panel-overview" href="#tb-panel-overview"
+       style="padding:10px 22px;">Overview</a>
+  </li>
+  <li class="nav-item mx-1 mb-2">
+    <a class="nav-link fw-semibold rounded-pill border" id="tb-tab-usage"
+       data-bs-toggle="pill" data-bs-target="#tb-panel-usage" href="#tb-panel-usage"
+       style="padding:10px 22px;">Usage</a>
+  </li>
+  <li class="nav-item mx-1 mb-2">
+    <a class="nav-link fw-semibold rounded-pill border" id="tb-tab-versions"
+       data-bs-toggle="pill" data-bs-target="#tb-panel-versions" href="#tb-panel-versions"
+       style="padding:10px 22px;">Versions</a>
+  </li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane fade show active py-2" id="tb-panel-overview" style="font-size:16px;line-height:1.65;color:#212529;font-weight:400;">
+<h2 class="fw-bold mb-3" style="border:none;border-left:4px solid #57B952;padding-left:16px;font-size:24px;letter-spacing:-0.3px;line-height:1.2;">Overview</h2>
+<p class="mb-4" style="font-size:16px;line-height:1.65;max-width:780px;">Loads the Italian localities with their postal code (CAP) and province, and fills in the
+city and the province of Italian addresses from the CAP.</p>
+<ul class="list-unstyled row row-cols-1 row-cols-md-2 g-2 mt-1 mb-4"><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>Ships the list of Italian localities (comuni and frazioni) with their CAP, linked to the
+  provinces already defined in Odoo. The data comes from <a href="https://www.geonames.org">GeoNames</a>
+  (Creative Commons Attribution 4.0).</div></div></li><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>Italy is set to <em>enforce cities</em>: the city of an Italian address is chosen from the list.</div></div></li><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>On the contact form, typing the CAP of an Italian address sets the city and the province.
+  A CAP shared by several localities sets only the province; the city name, when it matches
+  one of them (without accents and case), picks the locality. A leading zero lost in an
+  import is put back ("187" is "00187").</div></div></li><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>The action <em>Italy: set city from ZIP</em> on contacts links the Italian contacts to the city
+  of their CAP and fills in the province.</div></div></li><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>At install, the Italian contacts are linked: directly on a small database, by the scheduled
+  action <em>Italy: link contacts to the city of their ZIP</em> in batches on a large one (it
+  deactivates itself when done).</div></div></li><li class="col"><div class="border rounded-3 px-3 py-2 h-100 d-flex gap-2"><span class="flex-shrink-0 text-center fw-bold rounded d-inline-block" style="background-color:#57B952;color:#04331f;width:22px;height:22px;line-height:22px;font-size:13px;">&#10003;</span><div>Every form that runs the postal code rules of the contact (for example the delivery details
+  of an AWB) gets the province filled in, so the shipment can be sent to Italy without
+  looking up the province by hand.</div></div></li></ul>
+</div>
+<div class="tab-pane fade py-2" id="tb-panel-usage" style="font-size:16px;line-height:1.65;color:#212529;font-weight:400;">
+<h2 class="fw-bold mb-3" style="border:none;border-left:4px solid #57B952;padding-left:16px;font-size:24px;letter-spacing:-0.3px;line-height:1.2;">Usage</h2>
+<ol>
+<li>Open a contact and set the country to Italy.</li>
+<li>Type the CAP: the city and the province are filled in.</li>
+<li>To correct existing contacts, select them in the list and run
+   <em>Action &#8594; Italy: set city from ZIP</em>.</li>
+</ol>
+</div>
+<div class="tab-pane fade py-2" id="tb-panel-versions" style="font-size:16px;line-height:1.65;color:#212529;font-weight:400;">
+<h2 class="fw-bold mb-3" style="border:none;border-left:4px solid #57B952;padding-left:16px;font-size:24px;letter-spacing:-0.3px;line-height:1.2;">Versions</h2>
+<h2 class="fw-bold mt-4 mb-3" style="border:none;border-left:4px solid #57B952;padding-left:16px;font-size:24px;letter-spacing:-0.3px;line-height:1.2;">19.0.1.0.0 (2026-11-04)</h2>
+<p><strong>Added</strong></p>
+<ul>
+<li>Italian localities with postal code (CAP) and province, from GeoNames.</li>
+<li>City and province filled in from the CAP on Italian addresses; action and scheduled
+  action to link the existing contacts.</li>
+</ul>
+</div>
+</div>
+
+<div class="row text-center mt-4 mb-1 g-3">
+  <div class="col-md-6">
+    <div class="border rounded-3 px-4 py-2 h-100">
+      <div class="fw-bold" style="font-size:2.2rem;color:#006F42;line-height:1;">350+</div>
+      <div class="mt-2" style="font-size:0.9rem;color:#3d4752;">Modules published on Odoo Apps</div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="border rounded-3 px-4 py-2 h-100">
+      <div class="fw-bold" style="font-size:2.2rem;color:#006F42;line-height:1;">Silver</div>
+      <div class="mt-2" style="font-size:0.9rem;color:#3d4752;">Odoo Partner &mdash; implementation &amp; support</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="text-center rounded-4 px-4 pt-3 pb-4 mt-4 mb-3" style="background-color:#00432a;color:#ffffff;">
+  <h2 class="fw-bold mb-2" style="color:#ffffff;font-size:26px;letter-spacing:-0.3px;border:none;">Need help getting started?</h2>
+  <p class="mx-auto mb-2" style="color:#bfe3cc;max-width:660px;line-height:1.6;font-size:16px;">
+     Our 350+ apps on the Odoo Apps Store are used in Odoo implementations across Europe,
+     the Americas, Asia and Africa &mdash; by companies we have never even met. That is the
+     advantage of building modules that simply work.</p>
+  <p class="mx-auto mb-4" style="color:#bfe3cc;max-width:660px;line-height:1.6;font-size:16px;">
+     Questions about this module, or need it adapted to your processes?
+     Write to us &mdash; the developers who build it will answer.</p>
+  <a href="mailto:support@terrabit.ro" target="_blank" rel="noopener"
+     class="d-inline-block fw-bold text-decoration-none rounded-3"
+     style="background-color:#DEF1DD;color:#00432a;padding:14px 32px;font-size:15px;">Terrabit support &rarr;</a>
+</div>
+
+</div>
