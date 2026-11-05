@@ -3,7 +3,7 @@
 {
     "name": "Italy - City from ZIP",
     "summary": "Italian localities with postal code (CAP) and province, filled in from the CAP",
-    "version": "19.0.1.0.1",
+    "version": "20.0.1.0.1",
     "author": "Terrabit",
     "website": "https://www.terrabit.ro",
     "category": "Localization",
