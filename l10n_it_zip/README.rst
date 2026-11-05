@@ -17,7 +17,7 @@ Italy - City from ZIP
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-dhongu%2Fl10n--italy-lightgray.png?logo=github
-    :target: https://github.com/dhongu/l10n-italy/tree/19.0/l10n_it_zip
+    :target: https://github.com/dhongu/l10n-italy/tree/20.0/l10n_it_zip
     :alt: dhongu/l10n-italy
 
 |badge1| |badge2| |badge3|
@@ -84,11 +84,11 @@ Usage
    |Contact Cliente Roma after the action: ZIP 00187, city Roma (00187)
    and state Roma (IT)|
 
-.. |Cities list filtered on the CAP 39100: nine localities of the province Bolzano (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/19.0/l10n_it_zip/static/description/en/01_lista_localitati_cap.png
-.. |Contact in Italy: the CAP 20121 fills in the city Milano (20121) and the state Milano (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/19.0/l10n_it_zip/static/description/en/02_partener_cap_unic.png
-.. |Contact in Italy: the CAP 39100 fills in the state Bolzano (IT); the city field lists the localities of 39100| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/19.0/l10n_it_zip/static/description/en/03_partener_cap_comun.png
-.. |Contacts list with Italian contacts selected and the Actions menu open on Italy: set city from ZIP| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/19.0/l10n_it_zip/static/description/en/04_actiune_contacte_existente.png
-.. |Contact Cliente Roma after the action: ZIP 00187, city Roma (00187) and state Roma (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/19.0/l10n_it_zip/static/description/en/05_contact_dupa_actiune.png
+.. |Cities list filtered on the CAP 39100: nine localities of the province Bolzano (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/20.0/l10n_it_zip/static/description/en/01_lista_localitati_cap.png
+.. |Contact in Italy: the CAP 20121 fills in the city Milano (20121) and the state Milano (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/20.0/l10n_it_zip/static/description/en/02_partener_cap_unic.png
+.. |Contact in Italy: the CAP 39100 fills in the state Bolzano (IT); the city field lists the localities of 39100| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/20.0/l10n_it_zip/static/description/en/03_partener_cap_comun.png
+.. |Contacts list with Italian contacts selected and the Actions menu open on Italy: set city from ZIP| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/20.0/l10n_it_zip/static/description/en/04_actiune_contacte_existente.png
+.. |Contact Cliente Roma after the action: ZIP 00187, city Roma (00187) and state Roma (IT)| image:: https://raw.githubusercontent.com/dhongu/l10n-italy/20.0/l10n_it_zip/static/description/en/05_contact_dupa_actiune.png
 
 Changelog
 =========
@@ -138,6 +138,6 @@ Current maintainer:
 
 |maintainer-dhongu| 
 
-This module is part of the `dhongu/l10n-italy <https://github.com/dhongu/l10n-italy/tree/19.0/l10n_it_zip>`_ project on GitHub.
+This module is part of the `dhongu/l10n-italy <https://github.com/dhongu/l10n-italy/tree/20.0/l10n_it_zip>`_ project on GitHub.
 
 You are welcome to contribute.
