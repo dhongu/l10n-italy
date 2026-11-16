@@ -4,6 +4,13 @@
 
 - Apps Store page (`static/description/index.html`) regenerated with the Terrabit template.
 
+## 20.0.1.0.1 (2026-11-16)
+
+**Changed**
+
+- Migration to Odoo 20 (the PostgreSQL codes to retry are defined in the module; `ir.config_parameter`
+  `get_int` / `set_int`); `consultant_sheet` manifest key aligned with 19.0.
+
 ## 19.0.1.0.1 (2026-11-04)
 
 **Added**
